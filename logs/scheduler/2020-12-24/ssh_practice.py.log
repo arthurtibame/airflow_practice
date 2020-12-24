@@ -19,3 +19,10 @@
 [2020-12-24 19:10:46,669] {logging_mixin.py:103} INFO - [2020-12-24 19:10:46,668] {dag.py:1813} INFO - Sync 1 DAGs
 [2020-12-24 19:10:46,674] {logging_mixin.py:103} INFO - [2020-12-24 19:10:46,674] {dag.py:2266} INFO - Setting next_dagrun for foodpanda to 2020-12-25 10:28:29.151324+00:00
 [2020-12-24 19:10:46,680] {scheduler_job.py:189} INFO - Processing /home/ub/airflow/dags/ssh_practice.py took 0.056 seconds
+[2020-12-24 19:11:12,089] {scheduler_job.py:181} INFO - Started process (PID=28583) to work on /home/ub/airflow/dags/ssh_practice.py
+[2020-12-24 19:11:12,090] {scheduler_job.py:629} INFO - Processing file /home/ub/airflow/dags/ssh_practice.py for tasks to queue
+[2020-12-24 19:11:12,090] {logging_mixin.py:103} INFO - [2020-12-24 19:11:12,090] {dagbag.py:440} INFO - Filling up the DagBag from /home/ub/airflow/dags/ssh_practice.py
+[2020-12-24 19:11:12,132] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['foodpanda']) retrieved from /home/ub/airflow/dags/ssh_practice.py
+[2020-12-24 19:11:12,133] {logging_mixin.py:103} INFO - [2020-12-24 19:11:12,133] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-24 19:11:12,139] {logging_mixin.py:103} INFO - [2020-12-24 19:11:12,139] {dag.py:2266} INFO - Setting next_dagrun for foodpanda to 2020-12-25 10:28:29.151324+00:00
+[2020-12-24 19:11:12,145] {scheduler_job.py:189} INFO - Processing /home/ub/airflow/dags/ssh_practice.py took 0.057 seconds

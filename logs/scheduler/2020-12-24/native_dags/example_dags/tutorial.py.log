@@ -2322,3 +2322,17 @@
 [2020-12-24 19:10:38,528] {logging_mixin.py:103} INFO - [2020-12-24 19:10:38,528] {dag.py:1813} INFO - Sync 1 DAGs
 [2020-12-24 19:10:38,544] {logging_mixin.py:103} INFO - [2020-12-24 19:10:38,544] {dag.py:2266} INFO - Setting next_dagrun for tutorial to 2020-12-22 00:00:00+00:00
 [2020-12-24 19:10:38,550] {scheduler_job.py:189} INFO - Processing /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/tutorial.py took 0.029 seconds
+[2020-12-24 19:11:03,676] {scheduler_job.py:181} INFO - Started process (PID=28469) to work on /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/tutorial.py
+[2020-12-24 19:11:03,677] {scheduler_job.py:629} INFO - Processing file /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2020-12-24 19:11:03,680] {logging_mixin.py:103} INFO - [2020-12-24 19:11:03,680] {dagbag.py:440} INFO - Filling up the DagBag from /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/tutorial.py
+[2020-12-24 19:11:03,685] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/tutorial.py
+[2020-12-24 19:11:03,685] {logging_mixin.py:103} INFO - [2020-12-24 19:11:03,685] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-24 19:11:03,702] {logging_mixin.py:103} INFO - [2020-12-24 19:11:03,702] {dag.py:2266} INFO - Setting next_dagrun for tutorial to 2020-12-22 00:00:00+00:00
+[2020-12-24 19:11:03,708] {scheduler_job.py:189} INFO - Processing /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/tutorial.py took 0.033 seconds
+[2020-12-24 19:11:28,906] {scheduler_job.py:181} INFO - Started process (PID=28826) to work on /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/tutorial.py
+[2020-12-24 19:11:28,906] {scheduler_job.py:629} INFO - Processing file /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2020-12-24 19:11:28,907] {logging_mixin.py:103} INFO - [2020-12-24 19:11:28,907] {dagbag.py:440} INFO - Filling up the DagBag from /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/tutorial.py
+[2020-12-24 19:11:28,911] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/tutorial.py
+[2020-12-24 19:11:28,911] {logging_mixin.py:103} INFO - [2020-12-24 19:11:28,911] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-24 19:11:28,927] {logging_mixin.py:103} INFO - [2020-12-24 19:11:28,927] {dag.py:2266} INFO - Setting next_dagrun for tutorial to 2020-12-22 00:00:00+00:00
+[2020-12-24 19:11:28,933] {scheduler_job.py:189} INFO - Processing /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/tutorial.py took 0.029 seconds
