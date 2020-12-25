@@ -2336,3 +2336,24 @@
 [2020-12-24 19:11:20,876] {logging_mixin.py:103} INFO - [2020-12-24 19:11:20,876] {dag.py:1813} INFO - Sync 1 DAGs
 [2020-12-24 19:11:20,883] {logging_mixin.py:103} INFO - [2020-12-24 19:11:20,883] {dag.py:2266} INFO - Setting next_dagrun for example_task_group to 2020-12-22 00:00:00+00:00
 [2020-12-24 19:11:20,892] {scheduler_job.py:189} INFO - Processing /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py took 0.027 seconds
+[2020-12-24 19:11:46,041] {scheduler_job.py:181} INFO - Started process (PID=29059) to work on /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py
+[2020-12-24 19:11:46,041] {scheduler_job.py:629} INFO - Processing file /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2020-12-24 19:11:46,042] {logging_mixin.py:103} INFO - [2020-12-24 19:11:46,042] {dagbag.py:440} INFO - Filling up the DagBag from /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py
+[2020-12-24 19:11:46,047] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py
+[2020-12-24 19:11:46,047] {logging_mixin.py:103} INFO - [2020-12-24 19:11:46,047] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-24 19:11:46,055] {logging_mixin.py:103} INFO - [2020-12-24 19:11:46,055] {dag.py:2266} INFO - Setting next_dagrun for example_task_group to 2020-12-22 00:00:00+00:00
+[2020-12-24 19:11:46,062] {scheduler_job.py:189} INFO - Processing /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py took 0.022 seconds
+[2020-12-24 19:12:12,233] {scheduler_job.py:181} INFO - Started process (PID=29419) to work on /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py
+[2020-12-24 19:12:12,233] {scheduler_job.py:629} INFO - Processing file /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2020-12-24 19:12:12,234] {logging_mixin.py:103} INFO - [2020-12-24 19:12:12,234] {dagbag.py:440} INFO - Filling up the DagBag from /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py
+[2020-12-24 19:12:12,239] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py
+[2020-12-24 19:12:12,239] {logging_mixin.py:103} INFO - [2020-12-24 19:12:12,239] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-24 19:12:12,248] {logging_mixin.py:103} INFO - [2020-12-24 19:12:12,248] {dag.py:2266} INFO - Setting next_dagrun for example_task_group to 2020-12-22 00:00:00+00:00
+[2020-12-24 19:12:12,254] {scheduler_job.py:189} INFO - Processing /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py took 0.022 seconds
+[2020-12-24 19:12:38,453] {scheduler_job.py:181} INFO - Started process (PID=29766) to work on /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py
+[2020-12-24 19:12:38,454] {scheduler_job.py:629} INFO - Processing file /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2020-12-24 19:12:38,454] {logging_mixin.py:103} INFO - [2020-12-24 19:12:38,454] {dagbag.py:440} INFO - Filling up the DagBag from /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py
+[2020-12-24 19:12:38,459] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py
+[2020-12-24 19:12:38,459] {logging_mixin.py:103} INFO - [2020-12-24 19:12:38,459] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-24 19:12:38,467] {logging_mixin.py:103} INFO - [2020-12-24 19:12:38,467] {dag.py:2266} INFO - Setting next_dagrun for example_task_group to 2020-12-22 00:00:00+00:00
+[2020-12-24 19:12:38,474] {scheduler_job.py:189} INFO - Processing /home/ub/airflow/env/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py took 0.022 seconds

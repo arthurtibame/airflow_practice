@@ -1,0 +1,31 @@
+[2020-12-25 16:22:48,980] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: foodpanda.also_run_this 2020-12-25T08:22:45.532304+00:00 [queued]>
+[2020-12-25 16:22:48,984] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: foodpanda.also_run_this 2020-12-25T08:22:45.532304+00:00 [queued]>
+[2020-12-25 16:22:48,984] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2020-12-25 16:22:48,984] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2020-12-25 16:22:48,984] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2020-12-25 16:22:48,992] {taskinstance.py:1038} INFO - Executing <Task(BashOperator): also_run_this> on 2020-12-25T08:22:45.532304+00:00
+[2020-12-25 16:22:48,993] {base_task_runner.py:121} INFO - Running on host: dataiku
+[2020-12-25 16:22:48,993] {base_task_runner.py:122} INFO - Running: ['airflow', 'tasks', 'run', 'foodpanda', 'also_run_this', '2020-12-25T08:22:45.532304+00:00', '--job-id', '77', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/ssh_practice.py', '--cfg-path', '/tmp/tmpk4kndflh']
+[2020-12-25 16:22:49,561] {base_task_runner.py:106} INFO - Job 77: Subtask also_run_this [2020-12-25 16:22:49,560] {dagbag.py:440} INFO - Filling up the DagBag from /home/ub/airflow/dags/ssh_practice.py
+[2020-12-25 16:22:49,643] {base_task_runner.py:106} INFO - Job 77: Subtask also_run_this Running <TaskInstance: foodpanda.also_run_this 2020-12-25T08:22:45.532304+00:00 [running]> on host dataiku
+[2020-12-25 16:22:49,656] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=arthur.sl.lin
+AIRFLOW_CTX_DAG_ID=foodpanda
+AIRFLOW_CTX_TASK_ID=also_run_this
+AIRFLOW_CTX_EXECUTION_DATE=2020-12-25T08:22:45.532304+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2020-12-25T08:22:45.532304+00:00
+[2020-12-25 16:22:49,657] {bash.py:135} INFO - Tmp dir root location: 
+ /tmp
+[2020-12-25 16:22:49,657] {bash.py:158} INFO - Running command: docker -H tcp://172.16.16.119  images
+[2020-12-25 16:22:49,661] {bash.py:169} INFO - Output:
+[2020-12-25 16:22:49,734] {bash.py:173} INFO - REPOSITORY                       TAG                 IMAGE ID            CREATED             SIZE
+[2020-12-25 16:22:49,734] {bash.py:173} INFO - arthurtibame/foodpanda_scraper   v2                  cafb8314bd70        6 hours ago         962MB
+[2020-12-25 16:22:49,734] {bash.py:173} INFO - arthurtibame/foodpanda_scraper   v1                  9c8a858d8966        28 hours ago        962MB
+[2020-12-25 16:22:49,734] {bash.py:173} INFO - python                           3.6                 bd4a91d81d7e        7 days ago          874MB
+[2020-12-25 16:22:49,734] {bash.py:173} INFO - hello-world                      latest              bf756fb1ae65        11 months ago       13.3kB
+[2020-12-25 16:22:49,736] {bash.py:177} INFO - Command exited with return code 0
+[2020-12-25 16:22:49,747] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=foodpanda, task_id=also_run_this, execution_date=20201225T082245, start_date=20201225T082248, end_date=20201225T082249
+[2020-12-25 16:22:49,765] {taskinstance.py:1195} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2020-12-25 16:22:49,931] {local_task_job.py:118} INFO - Task exited with return code 0

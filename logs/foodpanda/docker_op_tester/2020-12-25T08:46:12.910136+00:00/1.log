@@ -1,0 +1,35 @@
+[2020-12-25 16:46:19,545] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: foodpanda.docker_op_tester 2020-12-25T08:46:12.910136+00:00 [queued]>
+[2020-12-25 16:46:19,548] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: foodpanda.docker_op_tester 2020-12-25T08:46:12.910136+00:00 [queued]>
+[2020-12-25 16:46:19,548] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2020-12-25 16:46:19,548] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2020-12-25 16:46:19,548] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2020-12-25 16:46:19,556] {taskinstance.py:1038} INFO - Executing <Task(DockerOperator): docker_op_tester> on 2020-12-25T08:46:12.910136+00:00
+[2020-12-25 16:46:19,558] {standard_task_runner.py:51} INFO - Started process 26722 to run task
+[2020-12-25 16:46:19,560] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'foodpanda', 'docker_op_tester', '2020-12-25T08:46:12.910136+00:00', '--job-id', '46', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/ssh_practice.py', '--cfg-path', '/tmp/tmp47p2jvr3']
+[2020-12-25 16:46:19,560] {standard_task_runner.py:76} INFO - Job 46: Subtask docker_op_tester
+[2020-12-25 16:46:19,579] {logging_mixin.py:103} INFO - Running <TaskInstance: foodpanda.docker_op_tester 2020-12-25T08:46:12.910136+00:00 [running]> on host dataiku
+[2020-12-25 16:46:19,595] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=arthur.sl.lin
+AIRFLOW_CTX_DAG_ID=foodpanda
+AIRFLOW_CTX_TASK_ID=docker_op_tester
+AIRFLOW_CTX_EXECUTION_DATE=2020-12-25T08:46:12.910136+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2020-12-25T08:46:12.910136+00:00
+[2020-12-25 16:46:19,596] {taskinstance.py:1396} ERROR - API versions below 1.21 are no longer supported by this library.
+Traceback (most recent call last):
+  File "/home/ub/airflow/env/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1086, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/ub/airflow/env/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1260, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/ub/airflow/env/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1300, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/ub/airflow/env/lib/python3.6/site-packages/airflow/providers/docker/operators/docker.py", line 280, in execute
+    self.cli = self._get_cli()
+  File "/home/ub/airflow/env/lib/python3.6/site-packages/airflow/providers/docker/operators/docker.py", line 312, in _get_cli
+    return APIClient(base_url=self.docker_url, version=self.api_version, tls=tls_config)
+  File "/home/ub/airflow/env/lib/python3.6/site-packages/docker/api/client.py", line 202, in __init__
+    'library.'.format(MINIMUM_DOCKER_API_VERSION)
+docker.errors.InvalidVersion: API versions below 1.21 are no longer supported by this library.
+[2020-12-25 16:46:19,597] {taskinstance.py:1440} INFO - Marking task as FAILED. dag_id=foodpanda, task_id=docker_op_tester, execution_date=20201225T084612, start_date=20201225T084619, end_date=20201225T084619
+[2020-12-25 16:46:19,611] {local_task_job.py:118} INFO - Task exited with return code 1
