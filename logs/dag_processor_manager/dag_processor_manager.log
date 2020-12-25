@@ -23527,3 +23527,229 @@ File Path                              PID    Runtime      # DAGs    # Errors  L
 ================================================================================
 [2020-12-25 17:33:59,852] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
 [2020-12-25 17:33:59,852] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:28:59.852696+00:00
+[2020-12-25 17:34:10,116] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:34:10,117] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:29:10.117508+00:00
+[2020-12-25 17:34:19,851] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ub/airflow/dags/ssh_practice.py                           1           0  0.10s           2020-12-25T09:34:19
+================================================================================
+[2020-12-25 17:34:20,385] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:34:20,385] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:29:20.385878+00:00
+[2020-12-25 17:34:30,648] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:34:30,648] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:29:30.648416+00:00
+[2020-12-25 17:34:40,915] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:34:40,915] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:29:40.915596+00:00
+[2020-12-25 17:34:50,097] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ub/airflow/dags/ssh_practice.py                           1           0  0.10s           2020-12-25T09:34:50
+================================================================================
+[2020-12-25 17:34:51,118] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:34:51,118] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:29:51.118486+00:00
+[2020-12-25 17:35:01,382] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:35:01,383] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:30:01.383107+00:00
+[2020-12-25 17:35:11,647] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:35:11,647] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:30:11.647563+00:00
+[2020-12-25 17:35:20,256] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ub/airflow/dags/ssh_practice.py                           1           0  0.10s           2020-12-25T09:35:20
+================================================================================
+[2020-12-25 17:35:21,910] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:35:21,914] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:30:21.914159+00:00
+[2020-12-25 17:35:32,177] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:35:32,178] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:30:32.177991+00:00
+[2020-12-25 17:35:42,445] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:35:42,445] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:30:42.445967+00:00
+[2020-12-25 17:35:50,502] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ub/airflow/dags/ssh_practice.py                           1           0  0.10s           2020-12-25T09:35:50
+================================================================================
+[2020-12-25 17:35:52,646] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:35:52,646] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:30:52.646223+00:00
+[2020-12-25 17:36:02,911] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:36:02,911] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:31:02.911739+00:00
+[2020-12-25 17:36:13,185] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:36:13,185] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:31:13.185821+00:00
+[2020-12-25 17:36:20,677] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ub/airflow/dags/ssh_practice.py                           1           0  0.10s           2020-12-25T09:36:20
+================================================================================
+[2020-12-25 17:36:23,453] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:36:23,453] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:31:23.453652+00:00
+[2020-12-25 17:36:33,717] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:36:33,718] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:31:33.718487+00:00
+[2020-12-25 17:36:43,982] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:36:43,982] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:31:43.982798+00:00
+[2020-12-25 17:36:50,924] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ub/airflow/dags/ssh_practice.py                           1           0  0.10s           2020-12-25T09:36:50
+================================================================================
+[2020-12-25 17:36:54,187] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:36:54,187] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:31:54.187581+00:00
+[2020-12-25 17:37:04,450] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:37:04,453] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:32:04.453878+00:00
+[2020-12-25 17:37:14,716] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:37:14,716] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:32:14.716928+00:00
+[2020-12-25 17:37:21,083] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ub/airflow/dags/ssh_practice.py                           1           0  0.10s           2020-12-25T09:37:21
+================================================================================
+[2020-12-25 17:37:24,980] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:37:24,980] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:32:24.980323+00:00
+[2020-12-25 17:37:35,241] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:37:35,242] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:32:35.242078+00:00
+[2020-12-25 17:37:45,505] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:37:45,506] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:32:45.506382+00:00
+[2020-12-25 17:37:51,331] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ub/airflow/dags/ssh_practice.py                           1           0  0.10s           2020-12-25T09:37:51
+================================================================================
+[2020-12-25 17:37:55,714] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:37:55,714] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:32:55.714969+00:00
+[2020-12-25 17:38:05,978] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:38:05,979] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:33:05.979081+00:00
+[2020-12-25 17:38:16,240] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:38:16,240] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:33:16.240395+00:00
+[2020-12-25 17:38:21,478] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ub/airflow/dags/ssh_practice.py                           1           0  0.10s           2020-12-25T09:38:21
+================================================================================
+[2020-12-25 17:38:26,506] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:38:26,506] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:33:26.506353+00:00
+[2020-12-25 17:38:36,772] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:38:36,772] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:33:36.772549+00:00
+[2020-12-25 17:38:47,036] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:38:47,036] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:33:47.036944+00:00
+[2020-12-25 17:38:50,410] {dag_processing.py:726} INFO - Searching for files in /home/ub/airflow/dags
+[2020-12-25 17:38:50,411] {dag_processing.py:729} INFO - There are 1 files in /home/ub/airflow/dags
+[2020-12-25 17:38:51,641] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ub/airflow/dags/ssh_practice.py                           1           0  0.10s           2020-12-25T09:38:51
+================================================================================
+[2020-12-25 17:38:57,298] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:38:57,298] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:33:57.298680+00:00
+[2020-12-25 17:39:07,560] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:39:07,560] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:34:07.560708+00:00
+[2020-12-25 17:39:17,827] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:39:17,828] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:34:17.827994+00:00
+[2020-12-25 17:39:21,891] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ub/airflow/dags/ssh_practice.py                           1           0  0.10s           2020-12-25T09:39:21
+================================================================================
+[2020-12-25 17:39:28,043] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:39:28,044] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:34:28.044409+00:00
+[2020-12-25 17:39:38,311] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:39:38,311] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:34:38.311688+00:00
+[2020-12-25 17:39:48,574] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:39:48,575] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:34:48.575052+00:00
+[2020-12-25 17:39:52,052] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ub/airflow/dags/ssh_practice.py                           1           0  0.10s           2020-12-25T09:39:52
+================================================================================
+[2020-12-25 17:39:58,837] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:39:58,837] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:34:58.837578+00:00
+[2020-12-25 17:40:09,100] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:40:09,100] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:35:09.100861+00:00
+[2020-12-25 17:40:19,364] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:40:19,364] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:35:19.364563+00:00
+[2020-12-25 17:40:22,299] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ub/airflow/dags/ssh_practice.py                           1           0  0.10s           2020-12-25T09:40:22
+================================================================================
+[2020-12-25 17:40:29,570] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:40:29,570] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:35:29.570661+00:00
+[2020-12-25 17:40:39,833] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:40:39,833] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:35:39.833584+00:00
+[2020-12-25 17:40:50,099] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:40:50,099] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:35:50.099331+00:00
+[2020-12-25 17:40:52,456] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ub/airflow/dags/ssh_practice.py                           1           0  0.10s           2020-12-25T09:40:52
+================================================================================
+[2020-12-25 17:41:00,361] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:41:00,361] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:36:00.361884+00:00
+[2020-12-25 17:41:10,624] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:41:10,625] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:36:10.625298+00:00
+[2020-12-25 17:41:20,888] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:41:20,888] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:36:20.888720+00:00
+[2020-12-25 17:41:22,702] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ub/airflow/dags/ssh_practice.py                           1           0  0.10s           2020-12-25T09:41:22
+================================================================================
+[2020-12-25 17:41:31,095] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:41:31,095] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:36:31.095646+00:00
+[2020-12-25 17:41:41,388] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:41:41,388] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:36:41.388718+00:00
+[2020-12-25 17:41:51,655] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:41:51,655] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:36:51.655557+00:00
+[2020-12-25 17:41:52,891] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ub/airflow/dags/ssh_practice.py                           1           0  0.10s           2020-12-25T09:41:52
+================================================================================
+[2020-12-25 17:42:01,917] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:42:01,918] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:37:01.918182+00:00
+[2020-12-25 17:42:12,180] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-25 17:42:12,180] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-25 09:37:12.180614+00:00
