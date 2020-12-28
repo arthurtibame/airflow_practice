@@ -12,11 +12,11 @@ args = {
 }
 
 dag = DAG(
-    dag_id='foodpanda',
+    dag_id='ssh_example',
     default_args=args,
     schedule_interval="0 1 * * *",
     start_date = datetime(2020,12,25),
-    tags=['foodpanda', 'crawler', 'ETL'],
+    tags=['ssh', 'example'],
     
 )
 
@@ -30,33 +30,4 @@ t1 = SSHOperator(
         get_pty=True,
         dag=dag
                 )
-t1.do_xcom_push
-# t1_1 = SSHOperator(
-#         task_id="t1_1",
-#         ssh_conn_id="crawler_server",        
-#         command="python3 -c ",
-#         dag=dag
-#                 )
-
-# task = BashOperator(
-#     task_id='also_run_this',
-#     bash_command='docker -H tcp://172.16.16.119  images',
-#     run_as_user='ub',
-#     dag=dag)
-
-# task.do_xcom_push
-
-t2 = DockerOperator(
-    task_id='foodpanda_crawler',    
-    docker_url='tcp://172.16.16.119:2375',  # Set your docker URL    
-    image='arthurtibame/foodpanda_scraper:v2',
-    container_name=f"foodpanda_crawler{datetime.now().strftime('%Y-%m-%d')}",
-    command="crawl foodpanda",
-    network_mode='bridge',    
-    auto_remove=True,
-    dag=dag
-)
-
-start >> t1 >> t2
-
-
+start >> t1
