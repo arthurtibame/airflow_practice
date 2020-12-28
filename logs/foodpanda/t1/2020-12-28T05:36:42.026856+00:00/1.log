@@ -1,0 +1,45 @@
+[2020-12-28 13:36:44,702] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: foodpanda.t1 2020-12-28T05:36:42.026856+00:00 [queued]>
+[2020-12-28 13:36:44,716] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: foodpanda.t1 2020-12-28T05:36:42.026856+00:00 [queued]>
+[2020-12-28 13:36:44,716] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2020-12-28 13:36:44,716] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2020-12-28 13:36:44,716] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2020-12-28 13:36:44,723] {taskinstance.py:1038} INFO - Executing <Task(SSHOperator): t1> on 2020-12-28T05:36:42.026856+00:00
+[2020-12-28 13:36:44,724] {standard_task_runner.py:51} INFO - Started process 24801 to run task
+[2020-12-28 13:36:44,726] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'foodpanda', 't1', '2020-12-28T05:36:42.026856+00:00', '--job-id', '6', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/ssh_practice.py', '--cfg-path', '/tmp/tmpos6fns75']
+[2020-12-28 13:36:44,727] {standard_task_runner.py:76} INFO - Job 6: Subtask t1
+[2020-12-28 13:36:44,764] {logging_mixin.py:103} INFO - Running <TaskInstance: foodpanda.t1 2020-12-28T05:36:42.026856+00:00 [running]> on host dataiku
+[2020-12-28 13:36:44,808] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=arthur.sl.lin
+AIRFLOW_CTX_DAG_ID=foodpanda
+AIRFLOW_CTX_TASK_ID=t1
+AIRFLOW_CTX_EXECUTION_DATE=2020-12-28T05:36:42.026856+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2020-12-28T05:36:42.026856+00:00
+[2020-12-28 13:36:44,809] {ssh.py:90} INFO - ssh_hook is not provided or invalid. Trying ssh_conn_id to create SSHHook.
+[2020-12-28 13:36:44,824] {taskinstance.py:1396} ERROR - SSH operator error: The conn_id `crawler_server` isn't defined
+Traceback (most recent call last):
+  File "/home/ub/airflow/env/lib/python3.6/site-packages/airflow/providers/ssh/operators/ssh.py", line 92, in execute
+    self.ssh_hook = SSHHook(ssh_conn_id=self.ssh_conn_id, timeout=self.timeout)
+  File "/home/ub/airflow/env/lib/python3.6/site-packages/airflow/providers/ssh/hooks/ssh.py", line 109, in __init__
+    conn = self.get_connection(self.ssh_conn_id)
+  File "/home/ub/airflow/env/lib/python3.6/site-packages/airflow/hooks/base.py", line 63, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/ub/airflow/env/lib/python3.6/site-packages/airflow/models/connection.py", line 354, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `crawler_server` isn't defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ub/airflow/env/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1086, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/ub/airflow/env/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1260, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/ub/airflow/env/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1300, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/ub/airflow/env/lib/python3.6/site-packages/airflow/providers/ssh/operators/ssh.py", line 171, in execute
+    raise AirflowException("SSH operator error: {}".format(str(e)))
+airflow.exceptions.AirflowException: SSH operator error: The conn_id `crawler_server` isn't defined
+[2020-12-28 13:36:44,825] {taskinstance.py:1440} INFO - Marking task as FAILED. dag_id=foodpanda, task_id=t1, execution_date=20201228T053642, start_date=20201228T053644, end_date=20201228T053644
+[2020-12-28 13:36:44,859] {local_task_job.py:118} INFO - Task exited with return code 1
