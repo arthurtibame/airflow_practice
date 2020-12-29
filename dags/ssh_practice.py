@@ -14,7 +14,7 @@ args = {
 dag = DAG(
     dag_id='ssh_example',
     default_args=args,
-    schedule_interval="0 1 * * *",
+    schedule_interval="* * * * *",
     start_date = datetime(2020,12,25),
     tags=['ssh', 'example'],
     
