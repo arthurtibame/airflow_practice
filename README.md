@@ -1,5 +1,5 @@
 # Airflow Practice 
-date: "Last compiled on `r format(Sys.time(), '%d %B, %Y')`"
+Sys.time(), '%d %B, %Y'
 ---
 # 2020/12/29
 - [x] add LINE notify api in [DAG](dags/foodpanda.py)
