@@ -1,5 +1,4 @@
 # Airflow Practice 
-Sys.time(), '%d %B, %Y'
 ---
 # 2020/12/29
 - [x] add LINE notify api in [DAG](dags/foodpanda.py)
