@@ -1,13 +1,6 @@
-# Airflow Practice 
----
-# 2020/12/29
-- [x] add LINE notify api in [DAG](dags/foodpanda.py)
+# Airflow-DAGS(airflow version: 1.10.14)
+![](./repo-img.png)
 
-# 2020/12/28
-- [x] add slack notification in [DAG](dags/foodpanda.py)
-
-# 2020/12/25
-- [x] remote docker run task
-# 2020/12/24
-- [x] complete ssh to another server and send command 
-- [x] xxxxxxxxxxx
+# Content:
+- [Installtion](./docs/Airflow-installation.md)
+- [Available DAGs](./docs/README.md)

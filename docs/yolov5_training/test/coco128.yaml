@@ -1,0 +1,11 @@
+download: https://github.com/ultralytics/yolov5/releases/download/v1.0/coco128.zip
+names:
+- lp
+- biglp
+- hugelp
+- shitlp
+- tinylp
+- nolp
+nc: 6
+train: ../yolo_data/train/images/
+val: ../yolo_data/test/images
